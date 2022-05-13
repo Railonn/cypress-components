@@ -11,7 +11,7 @@ context('smartTag', () => {
         cy.dataCy("tag").should('be.visible');
     });
 
-    it('shouldnt display tag when mouse leave the bloc', () => {
+    it.skip('shouldnt display tag when mouse leave the bloc', () => {
         cy.dataCy("tag").should("not.be.visible");
         cy.dataCy('see-more-hover').trigger('mouseover');
         cy.dataCy("tag").should('be.visible');
