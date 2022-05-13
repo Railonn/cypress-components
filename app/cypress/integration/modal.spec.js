@@ -2,7 +2,7 @@
 
 context('Modal', () => {
     beforeEach(() => {
-        cy.visit('/app/modal.html')
+        cy.visit('../../modal.html')
     })
 
     it('should display modal when click on display button', () => {
