@@ -2,7 +2,7 @@
 
 context('scrollToTop', () => {
     beforeEach(() => {
-        cy.visit('../../tailwindcss-components/components/scroll-to-top.html')
+        cy.visit('/app/scroll-to-top.html')
     })
 
     it('should display button when scroll down', () => {

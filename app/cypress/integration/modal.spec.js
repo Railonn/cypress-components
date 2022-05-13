@@ -2,7 +2,7 @@
 
 context('Modal', () => {
     beforeEach(() => {
-        cy.visit('../../tailwindcss-components/components/modal.html')
+        cy.visit('/app/modal.html')
     })
 
     it('should display modal when click on display button', () => {

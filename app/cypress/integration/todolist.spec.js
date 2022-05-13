@@ -2,7 +2,7 @@
 
 context('todolist', () => {
     beforeEach(() => {
-        cy.visit("../../alpinejs-todolist/app/index.html");
+        cy.visit("/app/index.html");
     });
 
     it("should add 4 todo item, delete the second item, and display 3 items", () => {

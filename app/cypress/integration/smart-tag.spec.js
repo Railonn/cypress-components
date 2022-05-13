@@ -2,7 +2,7 @@
 
 context('smartTag', () => {
     beforeEach(() => {
-        cy.visit('../../tailwindcss-components/components/smart-tag.html')
+        cy.visit('/app/smart-tag.html')
     })
 
     it('should display tag when mouse over the bloc', () => {
